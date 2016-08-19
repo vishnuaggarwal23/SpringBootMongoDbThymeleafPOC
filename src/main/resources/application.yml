@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      database: toDo
+      host: localhost
+      port: 27017
+  thymeleaf:
+    cache: false
+    mode: HTML5
+    suffix: .html
+  main:
+    banner-mode: OFF
+
+server:
+  port: 9080
